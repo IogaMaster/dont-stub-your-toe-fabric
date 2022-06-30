@@ -6,4 +6,4 @@ Fabric port by [IogaMaster](https://github.com/IogaMaster)
 
 ---
 
-This mod make you auto jump when sprinting.
+This mod makes you auto jump when sprinting.

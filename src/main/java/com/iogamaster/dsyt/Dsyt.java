@@ -13,8 +13,6 @@ public class Dsyt implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
-
         ClientTickEvents.START_CLIENT_TICK.register(client -> {
             if(MinecraftClient.getInstance().world != null)
 			if(!changed) {

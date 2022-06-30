@@ -18,9 +18,9 @@ public class Dsyt implements ModInitializer {
             if(client.world != null)
 			if(!changed) {
 				if(!client.options.getAutoJump().getValue()) { 
-                    if(MinecraftClient.getInstance().player.isSprinting()) {
+                    if(client.player.isSprinting()) {
                         changed = true;
-                        MinecraftClient.getInstance().options.getAutoJump().setValue(true);
+                        client.options.getAutoJump().setValue(true);
                     }
                 }
             } else if(!client.player.isSprinting()) {
